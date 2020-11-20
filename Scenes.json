@@ -1,0 +1,1781 @@
+{
+    "AuxAudioDevice1": {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_input_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": true,
+        "name": "Mic/Aux",
+        "prev_ver": 436207618,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "{0.0.1.00000000}.{6a029baa-7740-4891-b7ea-0129e2beaad4}"
+        },
+        "sync": 0,
+        "versioned_id": "wasapi_input_capture",
+        "volume": 1.0
+    },
+    "DesktopAudioDevice1": {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": true,
+        "name": "Audio du Bureau",
+        "prev_ver": 436207618,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "versioned_id": "wasapi_output_capture",
+        "volume": 0.062162734568119049
+    },
+    "current_program_scene": "Web Cam",
+    "current_scene": "Web Cam",
+    "current_transition": "Fondu",
+    "groups": [],
+    "modules": {
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1036,
+            "provider": "mssapi",
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "pauseRecordTimer": true,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        },
+        "scripts-tool": []
+    },
+    "name": "Sans nom",
+    "preview_locked": true,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Coupure"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fondu"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": true,
+            "hotkeys": [],
+            "id": 3,
+            "name": "Fondu"
+        }
+    ],
+    "saved_projectors": [],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "Scène 3"
+        },
+        {
+            "name": "revient bientot"
+        },
+        {
+            "name": "Web Cam"
+        },
+        {
+            "name": "bureau"
+        },
+        {
+            "name": "jeux"
+        }
+    ],
+    "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": []
+            },
+            "id": "game_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture de Jeu",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_mode": "window",
+                "window": "Diablo III:D3 Main Window Class:Diablo III64.exe"
+            },
+            "sync": 0,
+            "versioned_id": "game_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Capture Audio (Entrée) 3": [],
+                "libobs.hide_scene_item.Capture Audio (Sortie)": [],
+                "libobs.hide_scene_item.Capture de Jeu": [],
+                "libobs.hide_scene_item.Chat": [],
+                "libobs.hide_scene_item.Image 3": [],
+                "libobs.hide_scene_item.Périphérique de capture vidéo": [],
+                "libobs.show_scene_item.Capture Audio (Entrée) 3": [],
+                "libobs.show_scene_item.Capture Audio (Sortie)": [],
+                "libobs.show_scene_item.Capture de Jeu": [],
+                "libobs.show_scene_item.Chat": [],
+                "libobs.show_scene_item.Image 3": [],
+                "libobs.show_scene_item.Périphérique de capture vidéo": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "jeux",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 10,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Capture Audio (Entrée) 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Capture Audio (Sortie)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Image 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Chat",
+                        "pos": {
+                            "x": 1543.0,
+                            "y": 158.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Périphérique de capture vidéo",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 882.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.18125000596046448,
+                            "y": 0.18333333730697632
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Capture de Jeu",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.80057770013809204,
+                            "y": 0.79913455247879028
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Cura",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "AU20_125 - Ultimaker Cura:Qt5QWindowOwnDCIcon:Cura.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_output_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture Audio (Sortie) 2",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{3d7cf66a-137e-452b-9ccf-f5b586d9936f}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_output_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Abscent",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "text": "Absent"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Prusa",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "priority": 2,
+                "window": "PrusaSlicer-2.2.0 basé sur Slic3r:wxWindowNR:prusa-slicer.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture Audio (Entrée)",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{6a029baa-7740-4891-b7ea-0129e2beaad4}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Abscent": [],
+                "libobs.hide_scene_item.Capture Audio (Entrée) 2": [],
+                "libobs.hide_scene_item.Capture Audio (Sortie)": [],
+                "libobs.hide_scene_item.Capture d'écran": [],
+                "libobs.hide_scene_item.Chat": [],
+                "libobs.hide_scene_item.Image": [],
+                "libobs.hide_scene_item.Image 3": [],
+                "libobs.hide_scene_item.Périphérique de capture vidéo": [],
+                "libobs.hide_scene_item.Solidworks": [],
+                "libobs.show_scene_item.Abscent": [],
+                "libobs.show_scene_item.Capture Audio (Entrée) 2": [],
+                "libobs.show_scene_item.Capture Audio (Sortie)": [],
+                "libobs.show_scene_item.Capture d'écran": [],
+                "libobs.show_scene_item.Chat": [],
+                "libobs.show_scene_item.Image": [],
+                "libobs.show_scene_item.Image 3": [],
+                "libobs.show_scene_item.Périphérique de capture vidéo": [],
+                "libobs.show_scene_item.Solidworks": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Web Cam",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 9,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Image",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Capture d'écran",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.79427081346511841,
+                            "y": 0.7935185432434082
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Solidworks",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Capture Audio (Sortie)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": true,
+                        "name": "Périphérique de capture vidéo",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Chat",
+                        "pos": {
+                            "x": 1543.0,
+                            "y": 158.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Capture Audio (Entrée) 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Abscent",
+                        "pos": {
+                            "x": 1500.0,
+                            "y": 950.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55710303783416748,
+                            "y": 0.56818181276321411
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Solidworks",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "priority": 2,
+                "window": "SOLIDWORKS Premium 2016 x64 Edition:Afx#3A0000000140000000#3A8#3A0000000000010003#3A0000000000000000#3A00000000000D0773:SLDWORKS.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture d'écran",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "monitor": 0
+            },
+            "sync": 0,
+            "versioned_id": "monitor_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/wwwco/Desktop/source/Sans titre 7.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Chat",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "/*\n\nS0N0S's Custom CSS for OBS Chat - 1080p Version\n\nURL: http://nightdev.com/hosted/obschat/index.html?style=clear&channel=USERNAME\nWidth: 480\nHeight: 126\n\nNOTE: Looks best with 4-12px of spacing on all sides of chat box, depending on your resolution.\n\n*/\n\n/* Hide scrollbar */\n::-webkit-scrollbar {\n  visibility: hidden;\n}\n\n/* Hide background */\nbody {\n    color: transparent;\n}\n\n/* Increase size & weight of font to display clearly when downscaled to < 1080p */\n/* Add subtle text shadows to make text standout from background */\n.chat_line {\n    font-size: 18px;\n    line-height: 21px;\n    margin-right: 0px;\n    background-color: rgba(127, 127, 127, 0.00);\n}\n.chat_line .nick {\n    text-transform: capitalize;\n    color: #000;\n    font-weight: bold;\n    line-height: 21px;\n    text-shadow: 0px 0px 1px #666, 1px 1px 0px #000;\n}\n.chat_line .message {\n    color: #fff;\n    font-weight: bold;\n    line-height: 21px;\n    text-shadow: 0px 0px 1px #666, 1px 1px 0px #000;\n}\n\n/* Move chat badges to compensate for adjusted line-height */\n.chat_line .tag {\n    margin-bottom: 1px!important;\n}\n\n#chat_box .clear{\n    display: block;\n}\n\n/* Disable BTTV emotes */\nimg[class^=\"emoticon bttv-emo-\"], img[class*=\"emoticon bttv-emo-\"] {\n    display: none !important;\n}\n\n/* Transparency gradient to hide clipped chat lines */\n#chat_box {\n  -webkit-mask-image: -webkit-gradient(linear, left 10%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));\n  -webkit-mask-image: -webkit-gradient(linear, left 20%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));\n}\n\n/* Optimize username colors for clarity on bright & dark backgrounds */\nspan[style*='color: rgb(0, 0, 255);'] {color: rgb(64, 107, 227)!important;}\nspan[style*='color: rgb(255, 0, 0);'] {color: rgb(227, 64, 64)!important;}\nspan[style*='color: rgb(0, 128, 0);'] {color: rgb(64, 192, 64)!important;}\nspan[style*='color: rgb(178, 34, 34);'] {color: rgb(192, 64, 64)!important;}\nspan[style*='color: rgb(0, 0, 0);'] {color: rgb(255, 255, 255)!important;}\nspan[style*='color: \\#555;'] {color: rgb(255, 255, 255)!important;}\nspan[style*='color: rgb(138, 43, 226);'] {color: rgb(155, 65, 240)!important;}",
+                "height": 700,
+                "url": "http://nightdev.com/hosted/obschat/index.html?style=clear&channel=Diyoto",
+                "width": 380
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Périphérique de capture vidéo",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "buffering": 0,
+                "last_video_device_id": "HDP Webcam USB:\\\\?\\usb#22vid_0c45&pid_636b&mi_00#226&13927246&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "HDP Webcam USB:\\\\?\\usb#22vid_0c45&pid_636b&mi_00#226&13927246&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+            },
+            "sync": 0,
+            "versioned_id": "dshow_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Capture Audio (Sortie) 2": [],
+                "libobs.hide_scene_item.Image 2": [],
+                "libobs.hide_scene_item.Parti mangé": [],
+                "libobs.hide_scene_item.Revient bientôt": [],
+                "libobs.show_scene_item.Capture Audio (Sortie) 2": [],
+                "libobs.show_scene_item.Image 2": [],
+                "libobs.show_scene_item.Parti mangé": [],
+                "libobs.show_scene_item.Revient bientôt": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "revient bientot",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Revient bientôt",
+                        "pos": {
+                            "x": 160.0,
+                            "y": 380.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Parti mangé",
+                        "pos": {
+                            "x": 325.0,
+                            "y": 325.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Image 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Capture Audio (Sortie) 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Revient bientôt",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 256,
+                    "style": "Normal"
+                },
+                "read_from_file": false,
+                "text": "Revient à 14H"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_output_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture Audio (Sortie)",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{3d7cf66a-137e-452b-9ccf-f5b586d9936f}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_output_capture",
+            "volume": 0.31421324610710144
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Parti mangé",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "text": "Parti mangé"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image 2",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/wwwco/Desktop/source/Pause.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image 3",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/wwwco/Desktop/source/Layout.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Capture Audio (Entrée) 3": [],
+                "libobs.hide_scene_item.Capture Audio (Sortie)": [],
+                "libobs.hide_scene_item.Capture d'écran": [],
+                "libobs.hide_scene_item.Chat": [],
+                "libobs.hide_scene_item.Cura": [],
+                "libobs.hide_scene_item.Image 3": [],
+                "libobs.hide_scene_item.Prusa": [],
+                "libobs.hide_scene_item.Périphérique de capture vidéo": [],
+                "libobs.hide_scene_item.Solidworks": [],
+                "libobs.show_scene_item.Capture Audio (Entrée) 3": [],
+                "libobs.show_scene_item.Capture Audio (Sortie)": [],
+                "libobs.show_scene_item.Capture d'écran": [],
+                "libobs.show_scene_item.Chat": [],
+                "libobs.show_scene_item.Cura": [],
+                "libobs.show_scene_item.Image 3": [],
+                "libobs.show_scene_item.Prusa": [],
+                "libobs.show_scene_item.Périphérique de capture vidéo": [],
+                "libobs.show_scene_item.Solidworks": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scène 3",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 21,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Capture Audio (Entrée) 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Capture Audio (Sortie)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Image 3",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Chat",
+                        "pos": {
+                            "x": 1543.0,
+                            "y": 158.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Périphérique de capture vidéo",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 882.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.18125000596046448,
+                            "y": 0.18333333730697632
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Capture d'écran",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.79427081346511841,
+                            "y": 0.7935185432434082
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Solidworks",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.79479163885116577,
+                            "y": 0.79499071836471558
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 19,
+                        "locked": false,
+                        "name": "Prusa",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 20,
+                        "locked": false,
+                        "name": "Cura",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture Audio (Entrée) 2",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{6a029baa-7740-4891-b7ea-0129e2beaad4}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Capture Audio (Entrée)": [],
+                "libobs.hide_scene_item.Capture Audio (Sortie)": [],
+                "libobs.hide_scene_item.Capture d'écran 2": [],
+                "libobs.show_scene_item.Capture Audio (Entrée)": [],
+                "libobs.show_scene_item.Capture Audio (Sortie)": [],
+                "libobs.show_scene_item.Capture d'écran 2": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "bureau",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Capture Audio (Sortie)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Capture Audio (Entrée)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Capture d'écran 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture d'écran 2",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "versioned_id": "monitor_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture Audio (Entrée) 3",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{6a029baa-7740-4891-b7ea-0129e2beaad4}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": []
+}
